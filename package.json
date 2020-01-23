@@ -1,0 +1,34 @@
+{
+  "name": "react-kagawa-pref",
+  "version": "1.0.0",
+  "description": "香川県民チェック",
+  "main": "dist/index.js",
+  "repository": "ssh://git@github.com/mohemohe/react-kagawa-pref.git",
+  "author": "mohemohe",
+  "license": "WTFPL",
+  "dependencies": {
+    "@material-ui/core": "^4.9.0",
+    "@types/lodash.isfunction": "^3.0.6",
+    "lodash.isfunction": "^3.0.9",
+    "typescript": "^3.7.4",
+    "typestyle": "^2.0.4"
+  },
+  "peerDependencies": {
+    "@types/react": "^16.8.6",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "peerDependenciesMeta": {
+    "@types/react": {
+      "optional": true
+    }
+  },
+  "scripts": {
+    "postinstall": "tsc"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.6",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  }
+}
